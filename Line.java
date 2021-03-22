@@ -29,5 +29,6 @@ System.out.println("Length of line two = " +length2);
 String s1=String.valueOf(length1);
 String s2=String.valueOf(length2);
 System.out.println(s1.equals(s2));
+System.out.println(s1.compareTo(s2));
 }
 }
