@@ -31,7 +31,8 @@ String s2=String.valueOf(length2);
 System.out.println(s1.equals(s2));
 System.out.println(s1.compareTo(s2));
 }
-public double length(Line Point ){
+// 
+ public double length(Line Point ){
         double length =Math.floor(Math.sqrt(Math.pow(Point.x-x,2)+Math.pow(Point.y-y,2)));
         return length;
     }
