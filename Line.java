@@ -24,12 +24,12 @@ Line Point4 = new Line(sc.nextInt(),sc.nextInt());
 //invoking instance method
 double length1= Point1.length(Point2);
  double length2 = Point3.length(Point4);
-        System.out.println("Length of line one = " +length1);
-        System.out.println("Length of line Two = " +length2);
-
+System.out.println("Length of line one = " +length1);
+System.out.println("Length of line two = " +length2);
 String s1=String.valueOf(length1);
 String s2=String.valueOf(length2);
 System.out.println(s1.equals(s2));
+System.out.println(s1.compareTo(s2));
 }
 // 
  public double length(Line Point ){
