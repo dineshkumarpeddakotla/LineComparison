@@ -2,7 +2,6 @@ package line;
 import java.util.Scanner;
 class Line{
 //Constructor Intialized
-
 int x;
 int y;
     Line(int x,int y){
